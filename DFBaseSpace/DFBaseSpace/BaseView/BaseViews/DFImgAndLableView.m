@@ -7,7 +7,7 @@
 //
 
 #import "DFImgAndLableView.h"
-#import <masonry.h>
+#import "masonry.h"
 
 typedef enum : NSUInteger {
     CustomWithSize,
