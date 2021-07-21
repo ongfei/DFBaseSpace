@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DFBaseSpace"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of DFBaseSpace."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "DFBaseSpace", "DFBaseSpace/**/*.{h,m}"
+  # spec.source_files  = "DFBaseSpace", "DFBaseSpace/DFBaseSpace/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -137,29 +137,32 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Masonry', '~> 1.0.0'
 
-  # BaseImport
-  spec.subspec 'BaseImport' do |ssa|
-      ssa.source_files     = 'DFBaseSpace/BaseImport/**/*'
-  end
   #Base
-  spec.subspec 'Base' do |ssb|
-    
-      ssb.subspec 'BaseViews' do |sssa|
-        sssa.source_files     = 'DFBaseSpace/Base/BaseViews/**/*'
+  spec.subspec 'Base' do |ssa|
+
+      ssa.subspec 'BaseViews' do |sssa|
+        sssa.source_files     = 'DFBaseSpace/DFBaseSpace/Base/BaseViews/**/*'
+        # sssa.dependency 'Masonry', '~> 1.0.0'
         # sssa.dependency 'DFBaseSpace/Base/Category'
       end
 
-      ssb.subspec 'Category' do |sssb|
-        sssb.source_files     = 'DFBaseSpace/Base/Category/**/*'
+      ssa.subspec 'Category' do |sssb|
+        sssb.source_files     = 'DFBaseSpace/DFBaseSpace/Base/Category/**/*'
       end
 
-      ssb.subspec 'layout' do |sssc|
-        sssc.source_files     = 'DFBaseSpace/Base/layout/**/*'
+      ssa.subspec 'layout' do |sssc|
+        sssc.source_files     = 'DFBaseSpace/DFBaseSpace/Base/layout/**/*'
       end 
 
-      ssb.subspec 'Tools' do |sssd|
-        sssd.source_files     = 'DFBaseSpace/Base/Tools/**/*'
+      ssa.subspec 'Tools' do |sssd|
+        sssd.source_files     = 'DFBaseSpace/DFBaseSpace/Base/Tools/**/*'
       end 
+  end
+
+    # BaseImport
+  spec.subspec 'BaseImport' do |ssb|
+      ssb.source_files     = 'DFBaseSpace/DFBaseSpace/BaseImport/**/*'
+      ssb.dependency 'DFBaseSpace/Base'
   end
   
 
