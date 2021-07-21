@@ -7,13 +7,12 @@
 //
 
 #import "DFBaseImageView.h"
-#import "UIColor+DF.h"
 
 @implementation DFBaseImageView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor dfColorWithHexString:@"#E5EEFD"];
+        
         self.contentMode = UIViewContentModeScaleToFill;
         self.userInteractionEnabled = YES;
         self.clipsToBounds = YES;

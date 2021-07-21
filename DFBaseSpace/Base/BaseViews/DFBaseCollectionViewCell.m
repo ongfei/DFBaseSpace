@@ -8,14 +8,13 @@
 
 #import "DFBaseCollectionViewCell.h"
 #import "Masonry.h"
-#import "UIColor+DF.h"
 
 @implementation DFBaseCollectionViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         
-        self.contentLabel = [DFBaseLabel customWithText:@"" font:[UIFont systemFontOfSize:13] textColor:[UIColor dfColorWithHexString:@"#333333"] textAlignment:(NSTextAlignmentLeft)];
+        self.contentLabel = [DFBaseLabel customWithText:@"" font:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] textAlignment:(NSTextAlignmentLeft)];
         [self.contentView addSubview:self.contentLabel];
         [self.contentLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);

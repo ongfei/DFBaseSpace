@@ -16,27 +16,26 @@
 		659449D226A6A20B00E6A85D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659449D126A6A20B00E6A85D /* main.m */; };
 		659449DC26A6A20B00E6A85D /* DFBaseSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659449DB26A6A20B00E6A85D /* DFBaseSpaceTests.m */; };
 		659449E726A6A20B00E6A85D /* DFBaseSpaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659449E626A6A20B00E6A85D /* DFBaseSpaceUITests.m */; };
-		65944A3F26A6A38000E6A85D /* UICollectionView+DFReload.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A0726A6A37F00E6A85D /* UICollectionView+DFReload.m */; };
-		65944A4026A6A38000E6A85D /* UILabel+CrashType.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A0A26A6A37F00E6A85D /* UILabel+CrashType.m */; };
-		65944A4126A6A38000E6A85D /* NSString+DFEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A0C26A6A37F00E6A85D /* NSString+DFEmpty.m */; };
-		65944A4326A6A38000E6A85D /* UIButton+CrashTpye.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A0F26A6A38000E6A85D /* UIButton+CrashTpye.m */; };
-		65944A4526A6A38000E6A85D /* UICollectionViewHTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A1526A6A38000E6A85D /* UICollectionViewHTagsLayout.m */; };
-		65944A4626A6A38000E6A85D /* UICollectionViewVTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A1826A6A38000E6A85D /* UICollectionViewVTagsLayout.m */; };
-		65944A4726A6A38000E6A85D /* UIColor+DF.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A1A26A6A38000E6A85D /* UIColor+DF.m */; };
-		65944A4926A6A38000E6A85D /* DFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A1E26A6A38000E6A85D /* DFBaseViewController.m */; };
-		65944A4A26A6A38000E6A85D /* DFBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2026A6A38000E6A85D /* DFBaseButton.m */; };
-		65944A4B26A6A38000E6A85D /* DFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2226A6A38000E6A85D /* DFBaseTableViewCell.m */; };
-		65944A4C26A6A38000E6A85D /* DFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2326A6A38000E6A85D /* DFBaseModel.m */; };
-		65944A4D26A6A38000E6A85D /* DFImgAndLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2426A6A38000E6A85D /* DFImgAndLableView.m */; };
-		65944A4E26A6A38000E6A85D /* DFBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2526A6A38000E6A85D /* DFBaseScrollView.m */; };
-		65944A5026A6A38000E6A85D /* DFBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2726A6A38000E6A85D /* DFBaseCollectionViewCell.m */; };
-		65944A5126A6A38000E6A85D /* BgGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2926A6A38000E6A85D /* BgGradientLayer.m */; };
-		65944A5226A6A38000E6A85D /* DFBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A2C26A6A38000E6A85D /* DFBaseLabel.m */; };
-		65944A5326A6A38000E6A85D /* DFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A3326A6A38000E6A85D /* DFBaseView.m */; };
-		65944A5426A6A38000E6A85D /* DFBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A3426A6A38000E6A85D /* DFBaseImageView.m */; };
-		65944A5526A6A38000E6A85D /* DFBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A3626A6A38000E6A85D /* DFBaseTableView.m */; };
-		65944A5626A6A38000E6A85D /* DFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A3826A6A38000E6A85D /* DFTool.m */; };
-		65944A5726A6A38000E6A85D /* DFNetWorkGroupHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A3926A6A38000E6A85D /* DFNetWorkGroupHelper.m */; };
+		65944A9126A7F3EF00E6A85D /* DFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6426A7F3EF00E6A85D /* DFTool.m */; };
+		65944A9226A7F3EF00E6A85D /* DFNetWorkGroupHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6526A7F3EF00E6A85D /* DFNetWorkGroupHelper.m */; };
+		65944A9326A7F3EF00E6A85D /* UICollectionView+DFReload.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6826A7F3EF00E6A85D /* UICollectionView+DFReload.m */; };
+		65944A9426A7F3EF00E6A85D /* UILabel+CrashType.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6926A7F3EF00E6A85D /* UILabel+CrashType.m */; };
+		65944A9526A7F3EF00E6A85D /* UIColor+DF.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6A26A7F3EF00E6A85D /* UIColor+DF.m */; };
+		65944A9626A7F3EF00E6A85D /* NSString+DFEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6C26A7F3EF00E6A85D /* NSString+DFEmpty.m */; };
+		65944A9726A7F3EF00E6A85D /* UIButton+CrashTpye.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A6E26A7F3EF00E6A85D /* UIButton+CrashTpye.m */; };
+		65944A9826A7F3EF00E6A85D /* UICollectionViewHTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7326A7F3EF00E6A85D /* UICollectionViewHTagsLayout.m */; };
+		65944A9926A7F3EF00E6A85D /* UICollectionViewVTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7626A7F3EF00E6A85D /* UICollectionViewVTagsLayout.m */; };
+		65944A9A26A7F3EF00E6A85D /* DFBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7826A7F3EF00E6A85D /* DFBaseButton.m */; };
+		65944A9B26A7F3EF00E6A85D /* DFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7B26A7F3EF00E6A85D /* DFBaseTableViewCell.m */; };
+		65944A9C26A7F3EF00E6A85D /* DFImgAndLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7C26A7F3EF00E6A85D /* DFImgAndLableView.m */; };
+		65944A9D26A7F3EF00E6A85D /* DFBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7D26A7F3EF00E6A85D /* DFBaseScrollView.m */; };
+		65944A9E26A7F3EF00E6A85D /* DFBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A7E26A7F3EF00E6A85D /* DFBaseCollectionViewCell.m */; };
+		65944A9F26A7F3EF00E6A85D /* BgGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8026A7F3EF00E6A85D /* BgGradientLayer.m */; };
+		65944AA026A7F3EF00E6A85D /* DFBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8326A7F3EF00E6A85D /* DFBaseLabel.m */; };
+		65944AA126A7F3EF00E6A85D /* DFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8626A7F3EF00E6A85D /* DFBaseViewController.m */; };
+		65944AA226A7F3EF00E6A85D /* DFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8926A7F3EF00E6A85D /* DFBaseView.m */; };
+		65944AA326A7F3EF00E6A85D /* DFBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8A26A7F3EF00E6A85D /* DFBaseImageView.m */; };
+		65944AA426A7F3EF00E6A85D /* DFBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65944A8C26A7F3EF00E6A85D /* DFBaseTableView.m */; };
 		70037546B1C4EF4B21FF6042 /* libPods-DFBaseSpace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBCE94D76BF5A41CA80F922 /* libPods-DFBaseSpace.a */; };
 /* End PBXBuildFile section */
 
@@ -77,50 +76,48 @@
 		659449E226A6A20B00E6A85D /* DFBaseSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBaseSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659449E626A6A20B00E6A85D /* DFBaseSpaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBaseSpaceUITests.m; sourceTree = "<group>"; };
 		659449E826A6A20B00E6A85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		659449FB26A6A2D100E6A85D /* AppSysDefineMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSysDefineMacro.h; sourceTree = "<group>"; };
-		659449FF26A6A37F00E6A85D /* DFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseViewController.h; sourceTree = "<group>"; };
-		65944A0126A6A37F00E6A85D /* NSString+DFEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DFEmpty.h"; sourceTree = "<group>"; };
-		65944A0726A6A37F00E6A85D /* UICollectionView+DFReload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+DFReload.m"; sourceTree = "<group>"; };
-		65944A0A26A6A37F00E6A85D /* UILabel+CrashType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CrashType.m"; sourceTree = "<group>"; };
-		65944A0B26A6A37F00E6A85D /* UIButton+CrashTpye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CrashTpye.h"; sourceTree = "<group>"; };
-		65944A0C26A6A37F00E6A85D /* NSString+DFEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DFEmpty.m"; sourceTree = "<group>"; };
-		65944A0D26A6A38000E6A85D /* UICollectionView+DFReload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+DFReload.h"; sourceTree = "<group>"; };
-		65944A0F26A6A38000E6A85D /* UIButton+CrashTpye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CrashTpye.m"; sourceTree = "<group>"; };
-		65944A1026A6A38000E6A85D /* UILabel+CrashType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CrashType.h"; sourceTree = "<group>"; };
-		65944A1226A6A38000E6A85D /* DFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTool.h; sourceTree = "<group>"; };
-		65944A1526A6A38000E6A85D /* UICollectionViewHTagsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewHTagsLayout.m; sourceTree = "<group>"; };
-		65944A1626A6A38000E6A85D /* UICollectionViewVTagsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewVTagsLayout.h; sourceTree = "<group>"; };
-		65944A1726A6A38000E6A85D /* UICollectionViewHTagsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewHTagsLayout.h; sourceTree = "<group>"; };
-		65944A1826A6A38000E6A85D /* UICollectionViewVTagsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewVTagsLayout.m; sourceTree = "<group>"; };
-		65944A1A26A6A38000E6A85D /* UIColor+DF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DF.m"; sourceTree = "<group>"; };
-		65944A1C26A6A38000E6A85D /* DFNetWorkGroupHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFNetWorkGroupHelper.h; sourceTree = "<group>"; };
-		65944A1E26A6A38000E6A85D /* DFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseViewController.m; sourceTree = "<group>"; };
-		65944A2026A6A38000E6A85D /* DFBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseButton.m; sourceTree = "<group>"; };
-		65944A2126A6A38000E6A85D /* DFBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseLabel.h; sourceTree = "<group>"; };
-		65944A2226A6A38000E6A85D /* DFBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseTableViewCell.m; sourceTree = "<group>"; };
-		65944A2326A6A38000E6A85D /* DFBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseModel.m; sourceTree = "<group>"; };
-		65944A2426A6A38000E6A85D /* DFImgAndLableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFImgAndLableView.m; sourceTree = "<group>"; };
-		65944A2526A6A38000E6A85D /* DFBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseScrollView.m; sourceTree = "<group>"; };
-		65944A2726A6A38000E6A85D /* DFBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		65944A2826A6A38000E6A85D /* DFBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTableView.h; sourceTree = "<group>"; };
-		65944A2926A6A38000E6A85D /* BgGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgGradientLayer.m; sourceTree = "<group>"; };
-		65944A2A26A6A38000E6A85D /* DFBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseImageView.h; sourceTree = "<group>"; };
-		65944A2B26A6A38000E6A85D /* DFBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseView.h; sourceTree = "<group>"; };
-		65944A2C26A6A38000E6A85D /* DFBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseLabel.m; sourceTree = "<group>"; };
-		65944A2D26A6A38000E6A85D /* DFBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseButton.h; sourceTree = "<group>"; };
-		65944A2E26A6A38000E6A85D /* DFBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseModel.h; sourceTree = "<group>"; };
-		65944A2F26A6A38000E6A85D /* DFBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTableViewCell.h; sourceTree = "<group>"; };
-		65944A3126A6A38000E6A85D /* DFBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseScrollView.h; sourceTree = "<group>"; };
-		65944A3226A6A38000E6A85D /* DFImgAndLableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFImgAndLableView.h; sourceTree = "<group>"; };
-		65944A3326A6A38000E6A85D /* DFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseView.m; sourceTree = "<group>"; };
-		65944A3426A6A38000E6A85D /* DFBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseImageView.m; sourceTree = "<group>"; };
-		65944A3526A6A38000E6A85D /* BgGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgGradientLayer.h; sourceTree = "<group>"; };
-		65944A3626A6A38000E6A85D /* DFBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseTableView.m; sourceTree = "<group>"; };
-		65944A3726A6A38000E6A85D /* DFBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseCollectionViewCell.h; sourceTree = "<group>"; };
-		65944A3826A6A38000E6A85D /* DFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTool.m; sourceTree = "<group>"; };
-		65944A3926A6A38000E6A85D /* DFNetWorkGroupHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNetWorkGroupHelper.m; sourceTree = "<group>"; };
-		65944A3B26A6A38000E6A85D /* UIColor+DF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DF.h"; sourceTree = "<group>"; };
-		65944A5A26A6A9B300E6A85D /* DFBaseSpaceImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFBaseSpaceImport.h; sourceTree = "<group>"; };
+		65944A6226A7F3EF00E6A85D /* DFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTool.h; sourceTree = "<group>"; };
+		65944A6326A7F3EF00E6A85D /* DFNetWorkGroupHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFNetWorkGroupHelper.h; sourceTree = "<group>"; };
+		65944A6426A7F3EF00E6A85D /* DFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTool.m; sourceTree = "<group>"; };
+		65944A6526A7F3EF00E6A85D /* DFNetWorkGroupHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNetWorkGroupHelper.m; sourceTree = "<group>"; };
+		65944A6726A7F3EF00E6A85D /* NSString+DFEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DFEmpty.h"; sourceTree = "<group>"; };
+		65944A6826A7F3EF00E6A85D /* UICollectionView+DFReload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+DFReload.m"; sourceTree = "<group>"; };
+		65944A6926A7F3EF00E6A85D /* UILabel+CrashType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CrashType.m"; sourceTree = "<group>"; };
+		65944A6A26A7F3EF00E6A85D /* UIColor+DF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DF.m"; sourceTree = "<group>"; };
+		65944A6B26A7F3EF00E6A85D /* UIButton+CrashTpye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CrashTpye.h"; sourceTree = "<group>"; };
+		65944A6C26A7F3EF00E6A85D /* NSString+DFEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DFEmpty.m"; sourceTree = "<group>"; };
+		65944A6D26A7F3EF00E6A85D /* UICollectionView+DFReload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+DFReload.h"; sourceTree = "<group>"; };
+		65944A6E26A7F3EF00E6A85D /* UIButton+CrashTpye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CrashTpye.m"; sourceTree = "<group>"; };
+		65944A6F26A7F3EF00E6A85D /* UIColor+DF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DF.h"; sourceTree = "<group>"; };
+		65944A7026A7F3EF00E6A85D /* UILabel+CrashType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CrashType.h"; sourceTree = "<group>"; };
+		65944A7326A7F3EF00E6A85D /* UICollectionViewHTagsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewHTagsLayout.m; sourceTree = "<group>"; };
+		65944A7426A7F3EF00E6A85D /* UICollectionViewVTagsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewVTagsLayout.h; sourceTree = "<group>"; };
+		65944A7526A7F3EF00E6A85D /* UICollectionViewHTagsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewHTagsLayout.h; sourceTree = "<group>"; };
+		65944A7626A7F3EF00E6A85D /* UICollectionViewVTagsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewVTagsLayout.m; sourceTree = "<group>"; };
+		65944A7826A7F3EF00E6A85D /* DFBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseButton.m; sourceTree = "<group>"; };
+		65944A7926A7F3EF00E6A85D /* DFBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseLabel.h; sourceTree = "<group>"; };
+		65944A7A26A7F3EF00E6A85D /* DFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseViewController.h; sourceTree = "<group>"; };
+		65944A7B26A7F3EF00E6A85D /* DFBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseTableViewCell.m; sourceTree = "<group>"; };
+		65944A7C26A7F3EF00E6A85D /* DFImgAndLableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFImgAndLableView.m; sourceTree = "<group>"; };
+		65944A7D26A7F3EF00E6A85D /* DFBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseScrollView.m; sourceTree = "<group>"; };
+		65944A7E26A7F3EF00E6A85D /* DFBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		65944A7F26A7F3EF00E6A85D /* DFBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTableView.h; sourceTree = "<group>"; };
+		65944A8026A7F3EF00E6A85D /* BgGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgGradientLayer.m; sourceTree = "<group>"; };
+		65944A8126A7F3EF00E6A85D /* DFBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseImageView.h; sourceTree = "<group>"; };
+		65944A8226A7F3EF00E6A85D /* DFBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseView.h; sourceTree = "<group>"; };
+		65944A8326A7F3EF00E6A85D /* DFBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseLabel.m; sourceTree = "<group>"; };
+		65944A8426A7F3EF00E6A85D /* DFBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseButton.h; sourceTree = "<group>"; };
+		65944A8526A7F3EF00E6A85D /* DFBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTableViewCell.h; sourceTree = "<group>"; };
+		65944A8626A7F3EF00E6A85D /* DFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseViewController.m; sourceTree = "<group>"; };
+		65944A8726A7F3EF00E6A85D /* DFBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseScrollView.h; sourceTree = "<group>"; };
+		65944A8826A7F3EF00E6A85D /* DFImgAndLableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFImgAndLableView.h; sourceTree = "<group>"; };
+		65944A8926A7F3EF00E6A85D /* DFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseView.m; sourceTree = "<group>"; };
+		65944A8A26A7F3EF00E6A85D /* DFBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseImageView.m; sourceTree = "<group>"; };
+		65944A8B26A7F3EF00E6A85D /* BgGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgGradientLayer.h; sourceTree = "<group>"; };
+		65944A8C26A7F3EF00E6A85D /* DFBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseTableView.m; sourceTree = "<group>"; };
+		65944A8D26A7F3EF00E6A85D /* DFBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		65944A8F26A7F3EF00E6A85D /* AppSysDefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSysDefineMacro.h; sourceTree = "<group>"; };
+		65944A9026A7F3EF00E6A85D /* DFBaseSpaceImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseSpaceImport.h; sourceTree = "<group>"; };
 		D4671CC01F3E0D29EC30E22B /* Pods-DFBaseSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaseSpace.debug.xcconfig"; path = "Target Support Files/Pods-DFBaseSpace/Pods-DFBaseSpace.debug.xcconfig"; sourceTree = "<group>"; };
 		DCBCE94D76BF5A41CA80F922 /* libPods-DFBaseSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFBaseSpace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -176,7 +173,8 @@
 		659449BE26A6A20800E6A85D /* DFBaseSpace */ = {
 			isa = PBXGroup;
 			children = (
-				659449F426A6A22400E6A85D /* DFBaseSpace */,
+				65944A6026A7F3EF00E6A85D /* Base */,
+				65944A8E26A7F3EF00E6A85D /* BaseImport */,
 				659449BF26A6A20800E6A85D /* AppDelegate.h */,
 				659449C026A6A20800E6A85D /* AppDelegate.m */,
 				659449C226A6A20800E6A85D /* SceneDelegate.h */,
@@ -210,103 +208,100 @@
 			path = DFBaseSpaceUITests;
 			sourceTree = "<group>";
 		};
-		659449F426A6A22400E6A85D /* DFBaseSpace */ = {
+		65944A6026A7F3EF00E6A85D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				659449FD26A6A37F00E6A85D /* BaseView */,
-				659449F526A6A27400E6A85D /* BaseImport */,
+				65944A6626A7F3EF00E6A85D /* Category */,
+				65944A6126A7F3EF00E6A85D /* Tools */,
+				65944A7126A7F3EF00E6A85D /* layout */,
+				65944A7726A7F3EF00E6A85D /* BaseViews */,
 			);
-			path = DFBaseSpace;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		659449F526A6A27400E6A85D /* BaseImport */ = {
+		65944A6126A7F3EF00E6A85D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				659449FB26A6A2D100E6A85D /* AppSysDefineMacro.h */,
-				65944A5A26A6A9B300E6A85D /* DFBaseSpaceImport.h */,
+				65944A6326A7F3EF00E6A85D /* DFNetWorkGroupHelper.h */,
+				65944A6526A7F3EF00E6A85D /* DFNetWorkGroupHelper.m */,
+				65944A6226A7F3EF00E6A85D /* DFTool.h */,
+				65944A6426A7F3EF00E6A85D /* DFTool.m */,
 			);
-			path = BaseImport;
+			path = Tools;
 			sourceTree = "<group>";
 		};
-		659449FD26A6A37F00E6A85D /* BaseView */ = {
+		65944A6626A7F3EF00E6A85D /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				65944A1F26A6A38000E6A85D /* BaseViews */,
-				65944A0026A6A37F00E6A85D /* Category */,
-				659449FF26A6A37F00E6A85D /* DFBaseViewController.h */,
-				65944A1E26A6A38000E6A85D /* DFBaseViewController.m */,
-				65944A1C26A6A38000E6A85D /* DFNetWorkGroupHelper.h */,
-				65944A3926A6A38000E6A85D /* DFNetWorkGroupHelper.m */,
-				65944A1226A6A38000E6A85D /* DFTool.h */,
-				65944A3826A6A38000E6A85D /* DFTool.m */,
-				65944A1326A6A38000E6A85D /* layout */,
-				65944A3B26A6A38000E6A85D /* UIColor+DF.h */,
-				65944A1A26A6A38000E6A85D /* UIColor+DF.m */,
-			);
-			path = BaseView;
-			sourceTree = "<group>";
-		};
-		65944A0026A6A37F00E6A85D /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				65944A0126A6A37F00E6A85D /* NSString+DFEmpty.h */,
-				65944A0C26A6A37F00E6A85D /* NSString+DFEmpty.m */,
-				65944A0B26A6A37F00E6A85D /* UIButton+CrashTpye.h */,
-				65944A0F26A6A38000E6A85D /* UIButton+CrashTpye.m */,
-				65944A0D26A6A38000E6A85D /* UICollectionView+DFReload.h */,
-				65944A0726A6A37F00E6A85D /* UICollectionView+DFReload.m */,
-				65944A1026A6A38000E6A85D /* UILabel+CrashType.h */,
-				65944A0A26A6A37F00E6A85D /* UILabel+CrashType.m */,
+				65944A6726A7F3EF00E6A85D /* NSString+DFEmpty.h */,
+				65944A6C26A7F3EF00E6A85D /* NSString+DFEmpty.m */,
+				65944A6B26A7F3EF00E6A85D /* UIButton+CrashTpye.h */,
+				65944A6E26A7F3EF00E6A85D /* UIButton+CrashTpye.m */,
+				65944A6D26A7F3EF00E6A85D /* UICollectionView+DFReload.h */,
+				65944A6826A7F3EF00E6A85D /* UICollectionView+DFReload.m */,
+				65944A6F26A7F3EF00E6A85D /* UIColor+DF.h */,
+				65944A6A26A7F3EF00E6A85D /* UIColor+DF.m */,
+				65944A7026A7F3EF00E6A85D /* UILabel+CrashType.h */,
+				65944A6926A7F3EF00E6A85D /* UILabel+CrashType.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		65944A1326A6A38000E6A85D /* layout */ = {
+		65944A7126A7F3EF00E6A85D /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				65944A1426A6A38000E6A85D /* tag */,
+				65944A7226A7F3EF00E6A85D /* tag */,
 			);
 			path = layout;
 			sourceTree = "<group>";
 		};
-		65944A1426A6A38000E6A85D /* tag */ = {
+		65944A7226A7F3EF00E6A85D /* tag */ = {
 			isa = PBXGroup;
 			children = (
-				65944A1526A6A38000E6A85D /* UICollectionViewHTagsLayout.m */,
-				65944A1626A6A38000E6A85D /* UICollectionViewVTagsLayout.h */,
-				65944A1726A6A38000E6A85D /* UICollectionViewHTagsLayout.h */,
-				65944A1826A6A38000E6A85D /* UICollectionViewVTagsLayout.m */,
+				65944A7526A7F3EF00E6A85D /* UICollectionViewHTagsLayout.h */,
+				65944A7326A7F3EF00E6A85D /* UICollectionViewHTagsLayout.m */,
+				65944A7426A7F3EF00E6A85D /* UICollectionViewVTagsLayout.h */,
+				65944A7626A7F3EF00E6A85D /* UICollectionViewVTagsLayout.m */,
 			);
 			path = tag;
 			sourceTree = "<group>";
 		};
-		65944A1F26A6A38000E6A85D /* BaseViews */ = {
+		65944A7726A7F3EF00E6A85D /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
-				65944A3526A6A38000E6A85D /* BgGradientLayer.h */,
-				65944A2926A6A38000E6A85D /* BgGradientLayer.m */,
-				65944A2D26A6A38000E6A85D /* DFBaseButton.h */,
-				65944A2026A6A38000E6A85D /* DFBaseButton.m */,
-				65944A3726A6A38000E6A85D /* DFBaseCollectionViewCell.h */,
-				65944A2726A6A38000E6A85D /* DFBaseCollectionViewCell.m */,
-				65944A2A26A6A38000E6A85D /* DFBaseImageView.h */,
-				65944A3426A6A38000E6A85D /* DFBaseImageView.m */,
-				65944A2126A6A38000E6A85D /* DFBaseLabel.h */,
-				65944A2C26A6A38000E6A85D /* DFBaseLabel.m */,
-				65944A2E26A6A38000E6A85D /* DFBaseModel.h */,
-				65944A2326A6A38000E6A85D /* DFBaseModel.m */,
-				65944A3126A6A38000E6A85D /* DFBaseScrollView.h */,
-				65944A2526A6A38000E6A85D /* DFBaseScrollView.m */,
-				65944A2826A6A38000E6A85D /* DFBaseTableView.h */,
-				65944A3626A6A38000E6A85D /* DFBaseTableView.m */,
-				65944A2F26A6A38000E6A85D /* DFBaseTableViewCell.h */,
-				65944A2226A6A38000E6A85D /* DFBaseTableViewCell.m */,
-				65944A2B26A6A38000E6A85D /* DFBaseView.h */,
-				65944A3326A6A38000E6A85D /* DFBaseView.m */,
-				65944A3226A6A38000E6A85D /* DFImgAndLableView.h */,
-				65944A2426A6A38000E6A85D /* DFImgAndLableView.m */,
+				65944A8B26A7F3EF00E6A85D /* BgGradientLayer.h */,
+				65944A8026A7F3EF00E6A85D /* BgGradientLayer.m */,
+				65944A8426A7F3EF00E6A85D /* DFBaseButton.h */,
+				65944A7826A7F3EF00E6A85D /* DFBaseButton.m */,
+				65944A8D26A7F3EF00E6A85D /* DFBaseCollectionViewCell.h */,
+				65944A7E26A7F3EF00E6A85D /* DFBaseCollectionViewCell.m */,
+				65944A8126A7F3EF00E6A85D /* DFBaseImageView.h */,
+				65944A8A26A7F3EF00E6A85D /* DFBaseImageView.m */,
+				65944A7926A7F3EF00E6A85D /* DFBaseLabel.h */,
+				65944A8326A7F3EF00E6A85D /* DFBaseLabel.m */,
+				65944A8726A7F3EF00E6A85D /* DFBaseScrollView.h */,
+				65944A7D26A7F3EF00E6A85D /* DFBaseScrollView.m */,
+				65944A7F26A7F3EF00E6A85D /* DFBaseTableView.h */,
+				65944A8C26A7F3EF00E6A85D /* DFBaseTableView.m */,
+				65944A8526A7F3EF00E6A85D /* DFBaseTableViewCell.h */,
+				65944A7B26A7F3EF00E6A85D /* DFBaseTableViewCell.m */,
+				65944A8226A7F3EF00E6A85D /* DFBaseView.h */,
+				65944A8926A7F3EF00E6A85D /* DFBaseView.m */,
+				65944A7A26A7F3EF00E6A85D /* DFBaseViewController.h */,
+				65944A8626A7F3EF00E6A85D /* DFBaseViewController.m */,
+				65944A8826A7F3EF00E6A85D /* DFImgAndLableView.h */,
+				65944A7C26A7F3EF00E6A85D /* DFImgAndLableView.m */,
 			);
 			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		65944A8E26A7F3EF00E6A85D /* BaseImport */ = {
+			isa = PBXGroup;
+			children = (
+				65944A8F26A7F3EF00E6A85D /* AppSysDefineMacro.h */,
+				65944A9026A7F3EF00E6A85D /* DFBaseSpaceImport.h */,
+			);
+			path = BaseImport;
 			sourceTree = "<group>";
 		};
 		7B7D7069EED1F78FBD9278A1 /* Frameworks */ = {
@@ -481,31 +476,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65944A9926A7F3EF00E6A85D /* UICollectionViewVTagsLayout.m in Sources */,
 				659449C726A6A20800E6A85D /* ViewController.m in Sources */,
-				65944A4D26A6A38000E6A85D /* DFImgAndLableView.m in Sources */,
-				65944A4E26A6A38000E6A85D /* DFBaseScrollView.m in Sources */,
+				65944A9626A7F3EF00E6A85D /* NSString+DFEmpty.m in Sources */,
+				65944A9C26A7F3EF00E6A85D /* DFImgAndLableView.m in Sources */,
+				65944A9F26A7F3EF00E6A85D /* BgGradientLayer.m in Sources */,
+				65944A9826A7F3EF00E6A85D /* UICollectionViewHTagsLayout.m in Sources */,
+				65944A9D26A7F3EF00E6A85D /* DFBaseScrollView.m in Sources */,
+				65944AA326A7F3EF00E6A85D /* DFBaseImageView.m in Sources */,
+				65944A9A26A7F3EF00E6A85D /* DFBaseButton.m in Sources */,
+				65944A9126A7F3EF00E6A85D /* DFTool.m in Sources */,
+				65944A9726A7F3EF00E6A85D /* UIButton+CrashTpye.m in Sources */,
+				65944A9426A7F3EF00E6A85D /* UILabel+CrashType.m in Sources */,
+				65944AA426A7F3EF00E6A85D /* DFBaseTableView.m in Sources */,
+				65944A9226A7F3EF00E6A85D /* DFNetWorkGroupHelper.m in Sources */,
+				65944A9E26A7F3EF00E6A85D /* DFBaseCollectionViewCell.m in Sources */,
+				65944AA226A7F3EF00E6A85D /* DFBaseView.m in Sources */,
+				65944A9526A7F3EF00E6A85D /* UIColor+DF.m in Sources */,
 				659449C126A6A20800E6A85D /* AppDelegate.m in Sources */,
-				65944A5326A6A38000E6A85D /* DFBaseView.m in Sources */,
-				65944A4026A6A38000E6A85D /* UILabel+CrashType.m in Sources */,
-				65944A5226A6A38000E6A85D /* DFBaseLabel.m in Sources */,
-				65944A5526A6A38000E6A85D /* DFBaseTableView.m in Sources */,
-				65944A5426A6A38000E6A85D /* DFBaseImageView.m in Sources */,
-				65944A4326A6A38000E6A85D /* UIButton+CrashTpye.m in Sources */,
-				65944A4626A6A38000E6A85D /* UICollectionViewVTagsLayout.m in Sources */,
-				65944A5626A6A38000E6A85D /* DFTool.m in Sources */,
+				65944A9B26A7F3EF00E6A85D /* DFBaseTableViewCell.m in Sources */,
 				659449D226A6A20B00E6A85D /* main.m in Sources */,
-				65944A4926A6A38000E6A85D /* DFBaseViewController.m in Sources */,
-				65944A4B26A6A38000E6A85D /* DFBaseTableViewCell.m in Sources */,
-				65944A4126A6A38000E6A85D /* NSString+DFEmpty.m in Sources */,
-				65944A4526A6A38000E6A85D /* UICollectionViewHTagsLayout.m in Sources */,
-				65944A4726A6A38000E6A85D /* UIColor+DF.m in Sources */,
+				65944AA026A7F3EF00E6A85D /* DFBaseLabel.m in Sources */,
+				65944A9326A7F3EF00E6A85D /* UICollectionView+DFReload.m in Sources */,
+				65944AA126A7F3EF00E6A85D /* DFBaseViewController.m in Sources */,
 				659449C426A6A20800E6A85D /* SceneDelegate.m in Sources */,
-				65944A5026A6A38000E6A85D /* DFBaseCollectionViewCell.m in Sources */,
-				65944A3F26A6A38000E6A85D /* UICollectionView+DFReload.m in Sources */,
-				65944A4A26A6A38000E6A85D /* DFBaseButton.m in Sources */,
-				65944A5126A6A38000E6A85D /* BgGradientLayer.m in Sources */,
-				65944A5726A6A38000E6A85D /* DFNetWorkGroupHelper.m in Sources */,
-				65944A4C26A6A38000E6A85D /* DFBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
