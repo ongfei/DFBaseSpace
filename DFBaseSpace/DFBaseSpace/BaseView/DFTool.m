@@ -7,7 +7,6 @@
 //
 
 #import "DFTool.h"
-#import "AppDelegate.h"
 #import <CoreText/CoreText.h>
 
 #define CELLIDADNMODELTYPE
@@ -269,13 +268,19 @@
     UIViewController *currentVC = [self getCurrentVCFrom:rootViewController];
     
     if ([currentVC isKindOfClass:[UIAlertController class]]) {
-        AppDelegate * delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-        UITabBarController *tabViewController  = (UITabBarController *) delegate.window.rootViewController;
-        if (tabViewController.viewControllers.count <= tabViewController.selectedIndex) {
-            return nil;
+        
+        UIViewController *rootVC = [[[UIApplication sharedApplication] windows] lastObject].rootViewController;
+        if ([rootVC isKindOfClass:[UITabBarController class]]) {
+            UITabBarController *tabViewController  = (UITabBarController *)rootVC;
+            if (tabViewController.viewControllers.count <= tabViewController.selectedIndex) {
+                return nil;
+            }
+            UINavigationController *nav  = (UINavigationController *)tabViewController.viewControllers[tabViewController.selectedIndex];
+            return nav.viewControllers.lastObject;
+        }else if ([rootVC isKindOfClass:[UINavigationController class]]) {
+            UINavigationController *nav = (UINavigationController *)rootVC;
+            return nav.viewControllers.lastObject;
         }
-       UINavigationController *nav  = (UINavigationController *)tabViewController.viewControllers[tabViewController.selectedIndex];
-        return nav.viewControllers.lastObject;
     }
     
     return currentVC;

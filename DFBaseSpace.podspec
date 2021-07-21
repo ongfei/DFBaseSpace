@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DFBaseSpace"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of DFBaseSpace."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DFBaseSpace", "DFBaseSpace/DFBaseSpace/**/*.{h,m}"
+  # spec.source_files  = "DFBaseSpace", "DFBaseSpace/DFBaseSpace/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -136,5 +136,25 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Masonry', '~> 1.0.0'
+
+  # BaseImport
+  spec.subspec 'BaseImport' do |ssa|
+      ssa.source_files     = 'DFBaseSpace/DFBaseSpace/BaseImport/**/*'
+  end
+  #BaseView
+  spec.subspec 'BaseView' do |ssb|
+      ssb.source_files     = 'DFBaseSpace/DFBaseSpace/BaseView/*.{h,m}'
+
+      ssb.subspec 'BaseViews' do |sssa|
+        sssa.source_files     = 'DFBaseSpace/DFBaseSpace/BaseView/BaseViews/**/*'
+      end
+      ssb.subspec 'Category' do |sssb|
+        sssb.source_files     = 'DFBaseSpace/DFBaseSpace/BaseView/Category/**/*'
+      end
+      ssb.subspec 'layout' do |sssc|
+        sssc.source_files     = 'DFBaseSpace/DFBaseSpace/BaseView/layout/**/*'
+      end 
+  end
+  
 
 end
