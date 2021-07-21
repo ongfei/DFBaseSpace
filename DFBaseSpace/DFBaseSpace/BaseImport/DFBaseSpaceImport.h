@@ -13,7 +13,6 @@
 #import "DFBaseView.h"
 #import "DFBaseLabel.h"
 #import "DFBaseButton.h"
-#import "DFBaseModel.h"
 #import "DFBaseTableViewCell.h"
 #import "DFBaseCollectionViewCell.h"
 #import "DFBaseTableView.h"

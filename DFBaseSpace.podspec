@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DFBaseSpace"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of DFBaseSpace."
 
   # This description is used to generate tags and improve search results.
@@ -135,14 +135,14 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Masonry', '~> 1.0.0'
+  # spec.dependency 'Masonry', '~> 1.0.0'
 
   #Base
   spec.subspec 'Base' do |ssa|
 
       ssa.subspec 'BaseViews' do |sssa|
         sssa.source_files     = 'DFBaseSpace/DFBaseSpace/Base/BaseViews/**/*'
-        # sssa.dependency 'Masonry', '~> 1.0.0'
+        sssa.dependency 'Masonry', '~> 1.0.0'
         # sssa.dependency 'DFBaseSpace/Base/Category'
       end
 
