@@ -2,7 +2,7 @@
 //  UILabel+CrashType.m
 //  GoodDoctor
 //
-//  Created by wanglai on 2020/6/13.
+//  Created by ongfei on 2020/6/13.
 //  Copyright © 2020 litingting. All rights reserved.
 //
 

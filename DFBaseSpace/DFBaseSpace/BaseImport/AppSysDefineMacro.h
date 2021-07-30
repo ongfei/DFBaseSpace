@@ -19,6 +19,16 @@
 #define ColorFromRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 //#define kImagePath(name) [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:name]
 
+//Log
+#ifdef DEBUG
+#define DLog(xx, ...)  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行]❤️💗%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define DLog(xx, ...)  ((void)0)
+#define NSLog(FORMAT, ...) nil
+#endif
+
+
 #pragma mark -------------------------------------instance--------------------------------------
 #define kShareInstance  + (instancetype)shareInstance;
 

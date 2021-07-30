@@ -2,7 +2,7 @@
 //  DFImgAndLableView.m
 //  GoodDoctor
 //
-//  Created by wanglai on 2020/6/4.
+//  Created by ongfei on 2020/6/4.
 //  Copyright © 2020 litingting. All rights reserved.
 //
 
